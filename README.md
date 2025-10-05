@@ -1,12 +1,31 @@
-# React + Vite
+# 🎬 Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application built with **React** that allows users to **search movies**, view details, and **save their favorite titles** using data fetched from a movie API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search Movies:** Search for movies by title using an external API.  
+- ❤️ **Add to Favorites:** Mark movies as favorites and view them in a separate list.  
+- 📱 **Responsive Design:** Optimized for desktop and mobile viewing.  
+- ⚡ **Real-Time Updates:** Fetches and displays data dynamically from the movie API.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Hooks, Functional Components)  
+- **API:** Movie Database API   
+- **Styling:** CSS / Tailwind / Styled Components (depending on your setup)  
+
+---
+
+🌐 API Reference
+
+This project uses an external movie API (such as OMDb or TMDb).
+Replace the API key in the .env file with your own key from the provider’s developer portal.
+
+Example API request:
+
+https://www.omdbapi.com/?s=avengers&apikey=your_api_key
