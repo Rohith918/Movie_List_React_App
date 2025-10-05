@@ -23,9 +23,8 @@ A responsive web application built with **React** that allows users to **search 
 
 🌐 API Reference
 
-This project uses an external movie API (such as OMDb or TMDb).
+This project uses an external movie API.
 Replace the API key in the .env file with your own key from the provider’s developer portal.
-
-Example API request:
+API request:
 
 https://www.omdbapi.com/?s=avengers&apikey=your_api_key
